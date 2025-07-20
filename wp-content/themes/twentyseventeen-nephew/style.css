@@ -1,0 +1,34 @@
+/*
+Theme Name:     Twenty Seventeen Nephew
+Theme URI:      http://wordpress.org
+Description:    Developed from Twenty Seventeen
+Author:         Me
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Template:       twentyseventeen
+Version:        0.1
+*/
+
+/* Correzione spaziature tra articoli e foto nella frontal-page */
+.panel-content .wrap {
+		padding-bottom: 2em;
+		padding-top: 3,5em;
+}
+	
+.panel-content .entry-header {
+		margin-bottom: 1em;
+}
+
+
+/* correzione spaziatura e dimensioni testo del box di disclaimer dei cookies */
+
+.cookie-bar-block #catapult-cookie-bar span {
+	font-size: 85%;
+	margin: 0;
+}
+.cookie-bar-block #catapult-cookie-bar h3 {
+	margin: 0;
+}
+
+
+/* correzione dell'immagine dell'header */
